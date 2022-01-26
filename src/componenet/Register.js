@@ -42,10 +42,10 @@ const Register = () => {
                         <input onChange={(e)=>setFirstName(e.target.value)}  type="text" className="form-control mb-3 " placeholder="First Name..."/>
                         
                         <label className='mt-1'>Last Name</label>
-                        <input onChange={(e)=>setLastName(e.target.value)} type="text" className="form-control mb-3 " placeholder="Last Name"/>
+                        <input onChange={(e)=>setLastName(e.target.value)} type="text" className="form-control mb-3 " placeholder="Last Name..."/>
 
                         <label className='mt-1'>Email</label>
-                        <input onChange={(e)=>setEmail(e.target.value)} type="email" className="form-control mb-3 " placeholder="expale@gmail.com"/>
+                        <input onChange={(e)=>setEmail(e.target.value)} type="email" className="form-control mb-3 " placeholder="expale@gmail.com..."/>
 
                         <label className='mt-1'>Password</label>
                         <input onChange={(e)=>setPassword(e.target.value)} type="password" className="form-control mb-3 " placeholder="Password"/>
