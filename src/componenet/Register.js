@@ -55,7 +55,7 @@ const Register = () => {
                         <input onChange={(e)=>setBrithday(e.target.value)} type="date" className="form-control mb-3 " placeholder="Birthday"/>
 
                         <label className='mt-1'>What is your favorit food?</label>
-                        <input onChange={(e)=>setRsecret(e.target.value)} type="text" className="form-control mb-3 " placeholder="Secrect Answer"/>
+                        <input onChange={(e)=>setRsecret(e.target.value)} type="text" className="form-control mb-3 " placeholder="Secrect Answer."/>
 
                         <div className='d-grid gap-2 mb-3'>
                          <button onClick={AddUser} type='button' className='btn btn-dark btn-lg border-0 rounded-0'>Save</button>
